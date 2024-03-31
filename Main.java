@@ -28,24 +28,24 @@ public class Main {
 
         switch (choice) {
             case 1:
-                JOptionPane.showMessageDialog(null, "num1: "+ num1 + "\nnum2: "+ num2 + "\nOperation used: "+ choice + "\nResult: " + add(num1,num2));    
+                JOptionPane.showMessageDialog(null, "num1: "+ num1 + "\nnum2: "+ num2 + "\nOperation used: "+ "Addition" + "\nResult: " + add(num1,num2));    
                 break;
             case 2:
-                JOptionPane.showMessageDialog(null, "num1: "+ num1 + "\nnum2: "+ num2 + "\nOperation used: "+ choice + "\nResult: " + subtract(num1,num2));    
+                JOptionPane.showMessageDialog(null, "num1: "+ num1 + "\nnum2: "+ num2 + "\nOperation used: "+ "Subtraction" + "\nResult: " + subtract(num1,num2));    
                 break;
             case 3:
-                JOptionPane.showMessageDialog(null, "num1: "+ num1 + "\nnum2: "+ num2 + "\nOperation used: "+ choice + "\nResult: " + multiply(num1,num2));    
+                JOptionPane.showMessageDialog(null, "num1: "+ num1 + "\nnum2: "+ num2 + "\nOperation used: "+ "Multiplication" + "\nResult: " + multiply(num1,num2));    
                 break;
             case 4:
                 if (num2 != 0) {
-                    JOptionPane.showMessageDialog(null, "num1: "+ num1 + "\nnum2: "+ num2 + "\nOperation used: "+ choice + "\nResult: " + divide(num1,num2));
+                    JOptionPane.showMessageDialog(null, "num1: "+ num1 + "\nnum2: "+ num2 + "\nOperation used: "+ "Division" + "\nResult: " + divide(num1,num2));
                 }
                 else {
                     JOptionPane.showMessageDialog(null, "Cannot Devide By Zero");
                 }
                 break;
             case 5:
-                    JOptionPane.showMessageDialog(null, "num1: "+ num1 + "\nnum2: "+ num2 + "\nOperation used: "+ choice + "\nResult: " + modulus(num1,num2));
+                    JOptionPane.showMessageDialog(null, "num1: "+ num1 + "\nnum2: "+ num2 + "\nOperation used: "+ "Modulus" + "\nResult: " + modulus(num1,num2));
                 break;
         
             default:
