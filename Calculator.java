@@ -1,6 +1,6 @@
 import javax.swing.JOptionPane;
 
-public class Main {
+public class Calculator {
 	
 	public static int add (int a, int b) {
     return a + b;
@@ -41,7 +41,7 @@ public class Main {
                     JOptionPane.showMessageDialog(null, "num1: "+ num1 + "\nnum2: "+ num2 + "\nOperation used: "+ "Division" + "\nResult: " + divide(num1,num2));
                 }
                 else {
-                    JOptionPane.showMessageDialog(null, "Cannot Devide By Zero");
+                    JOptionPane.showMessageDialog(null, "Cannot Divide By Zero");
                 }
                 break;
             case 5:
