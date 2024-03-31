@@ -22,9 +22,9 @@ public class Calculator {
         int num1, num2, choice;
 
         num1 = Integer.parseInt(JOptionPane.showInputDialog("Enter First Number"));
-        num2 = Integer.parseInt(JOptionPane.showInputDialog("Enter Second Number"));
         choice = Integer.parseInt(JOptionPane.showInputDialog("Select Operator \n1. Addition \n2.Subtraction \n3.Multiplication \n4.Division \n5.Modulus"));
-
+        num2 = Integer.parseInt(JOptionPane.showInputDialog("Enter Second Number"));
+        
 
         switch (choice) {
             case 1:
