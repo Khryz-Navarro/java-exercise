@@ -1,2 +1,2 @@
 # java-exercise
-java lab
+Java Laboratory Exercises Perfromed in Computer Laboratory
