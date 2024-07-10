@@ -3,19 +3,23 @@ import javax.swing.*;
 public class Calculator {
 	
 	private static int add (int a, int b) {
-    return a + b;
+
+        return a + b;
 	}
 	private static int subtract (int a, int b) {
-    return a - b;
+
+        return a - b;
 	}
 	private static int multiply (int a, int b) {
     return a * b;
 	}
 	private static int divide (int a, int b) {
-    return a / b;
+
+        return a / b;
 	}
 	private static int modulus (int a, int b) {
-    return a % b;
+
+        return a % b;
 	}
     public static void main(String[] args) {
         
